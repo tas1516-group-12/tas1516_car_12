@@ -54,7 +54,7 @@ void wii_lib::wiiStateCallback(const wiimote::State::ConstPtr& wiiState)
             }
             else
             {
-                SCALE_FAKTOR_THROTTLE = 80; /*scale factor for driving reverse // old: 300*/
+                SCALE_FAKTOR_THROTTLE = 250; /*scale factor for driving reverse // old: 300*/
             }
 
             /* mapping analog nunchuk state to servo command*/
