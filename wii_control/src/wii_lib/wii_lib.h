@@ -26,7 +26,7 @@
 #define WII_BUTTON_NUNCHUK_Z    0
 #define WII_BUTTON_NUNCHUK_C    1
 
-#define SCALE_FAKTOR_STEERING   500
+#define SCALE_FAKTOR_STEERING   250		//old 500
 
 #define PI                      3.14159265
 

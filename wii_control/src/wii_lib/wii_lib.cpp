@@ -50,11 +50,11 @@ void wii_lib::wiiStateCallback(const wiimote::State::ConstPtr& wiiState)
 
             if(wiiState.get()->nunchuk_joystick_zeroed[1]>=0)
             {
-                SCALE_FAKTOR_THROTTLE = 200; /*scale factor for driving forward*/
+                SCALE_FAKTOR_THROTTLE = 50; /*scale factor for driving forward/// old: 200*/
             }
             else
             {
-                SCALE_FAKTOR_THROTTLE = 300; /*scale factor for driving reverse*/
+                SCALE_FAKTOR_THROTTLE = 80; /*scale factor for driving reverse // old: 300*/
             }
 
             /* mapping analog nunchuk state to servo command*/
